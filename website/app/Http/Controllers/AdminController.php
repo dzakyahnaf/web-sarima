@@ -113,6 +113,7 @@ class AdminController extends Controller
             'glamping' => 'required|numeric',
         ]);
 
+        $total = $request->ktm + $request->glamping;
         $row = "{$request->tahun},{$request->bulan},{$request->minggu},{$request->ktm},{$request->glamping},{$total}";
 
         $csvPath = base_path('../ml-sarima/data/raw/Drafting Data Bunihayu Rev.csv');
