@@ -85,9 +85,15 @@ class DashboardController extends Controller
     public function report(Request $request)
     {
         $historical = $this->sarimaService->getHistoricalMonthly();
-        $year = $request->query('year', date('Y'));
         
-        // Filter by year if needed in view
+        // Find max year in historical data for default view
+        $defaultYear = 2025; // Hard fallback
+        if (isset($historical['data']) && !empty($historical['data'])) {
+            $years = array_column($historical['data'], 'year');
+            $defaultYear = max($years);
+        }
+
+        $year = $request->query('year', $defaultYear);
         
         return view('dashboard.report', compact('historical', 'year'));
     }

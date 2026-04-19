@@ -8,6 +8,19 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             
+            
+            @if(isset($prediction['success']) && !$prediction['success'])
+            <div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 mb-6 shadow-sm flex items-center justify-between" role="alert">
+                <div>
+                    <p class="font-bold">⚠️ Layanan ML Offline</p>
+                    <p class="text-sm">Sistem tidak dapat terhubung ke Server Python SARIMA. Metrik dan prediksi tidak dapat ditampilkan.</p>
+                </div>
+                <div class="text-xs font-mono bg-red-200 px-2 py-1 rounded">
+                    Jalankan: python src/api.py
+                </div>
+            </div>
+            @endif
+
             <!-- Model Metrics Area -->
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg mb-6">
                 <div class="p-6 text-gray-900 dark:text-gray-100 flex flex-col md:flex-row justify-between items-center gap-4">

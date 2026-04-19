@@ -1,5 +1,16 @@
-# Dokumentasi Lengkap: Sistem Prediksi Wisata Bunihayu (SARIMA)
+# Dokumentasi Sistem Prediksi Wisata Bunihayu (SARIMA)
 
+> [!IMPORTANT]
+> ### ✅ CHECKLIST SEBELUM DEMO / PENGETESAN
+> Agar dashboard tidak kosong, pastikan kedua server di bawah ini sudah menyala:
+> 1. **Server Web (Laravel)**: Buka terminal di folder `website`, jalankan `php artisan serve`.
+> 2. **Server ML (Python)**: Buka terminal di folder `ml-sarima`, aktifkan venv, jalankan `python src/api.py`.
+> 
+> *Jika server ML mati, dashboard akan menampilkan peringatan "Layanan ML Offline".*
+
+---
+
+## 🏗️ Arsitektur Sistem
 Sistem ini dikembangkan untuk memberikan solusi prediktif bagi manajemen Wana Wisata Kampoeng Ciherang Bunihayu dalam memantau dan memperkirakan lonjakan jumlah wisatawan.
 
 ---

@@ -7,9 +7,19 @@
 
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            
+            @if(isset($historical['success']) && !$historical['success'])
+            <div class="bg-red-100 border-l-4 border-red-500 text-red-700 p-4 mb-6 shadow-sm flex items-center justify-between" role="alert">
+                <div>
+                    <p class="font-bold">⚠️ Layanan ML Offline</p>
+                    <p class="text-sm">Laporan tidak dapat dimuat karena sistem tidak dapat terhubung ke Server Python.</p>
+                </div>
+            </div>
+            @endif
+
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6 text-gray-900 dark:text-gray-100 flex justify-between items-center mb-4">
-                    <h3 class="text-lg font-bold">Data Agregasi Bulanan ({{ $year }})</h3>
+                    <h3 class="text-lg font-bold">Data Agregasi Bulanan ({{ $year == 'All' ? 'Semua Tahun' : $year }})</h3>
                     <div class="flex gap-2">
                         <button onclick="exportTableToCSV('laporan_kunjungan.csv')" class="bg-green-600 hover:bg-green-700 text-white text-sm font-bold py-2 px-4 rounded inline-flex items-center">
                             <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path></svg>
