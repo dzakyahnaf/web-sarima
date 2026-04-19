@@ -1,0 +1,25 @@
+Date,Tahun,Bulan_Num,KTM,Glamping,Total_Visitors,Bulan,Weeks_Count,Traffic_Level
+2024-01-01,2024,1,113,36,184,Januari,4.0,Medium Traffic
+2024-02-01,2024,2,132,60,84,Februari,4.0,Low Traffic
+2024-03-01,2024,3,128,37,198,Maret,4.0,Medium Traffic
+2024-04-01,2024,4,123,14,313,April,4.0,High Traffic
+2024-05-01,2024,5,163,32,118,Mei,4.0,Low Traffic
+2024-06-01,2024,6,146,45,425,Juni,5.0,High Traffic
+2024-07-01,2024,7,198,22,323,Juli,4.0,High Traffic
+2024-08-01,2024,8,37,40,155,Agustus,4.0,Medium Traffic
+2024-09-01,2024,9,107,43,291,September,5.0,Medium Traffic
+2024-10-01,2024,10,65,34,119,Oktober,4.0,Low Traffic
+2024-11-01,2024,11,71,52,223,November,4.0,Medium Traffic
+2024-12-01,2024,12,43,47,60,Desember,5.0,Low Traffic
+2025-01-01,2025,1,46,44,66,Januari,4.0,Low Traffic
+2025-02-01,2025,2,101,29,214,Februari,4.0,Medium Traffic
+2025-03-01,2025,3,132,40,278,Maret,4.0,Medium Traffic
+2025-04-01,2025,4,163,51,342,April,4.0,High Traffic
+2025-05-01,2025,5,93,22,214,Mei,4.0,Medium Traffic
+2025-06-01,2025,6,115,20,278,Juni,5.0,Medium Traffic
+2025-07-01,2025,7,131,24,265,Juli,4.0,Medium Traffic
+2025-08-01,2025,8,82,34,275,Agustus,5.0,Medium Traffic
+2025-09-01,2025,9,164,53,454,September,4.0,High Traffic
+2025-10-01,2025,10,116,31,278,Oktober,4.0,Medium Traffic
+2025-11-01,2025,11,263,10,679,November,5.0,Peak Demand
+2025-12-01,2025,12,133,24,335,Desember,4.0,High Traffic

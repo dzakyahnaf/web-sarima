@@ -1,0 +1,24 @@
+petunjuk penjelasan saat coding implementasi
+ini untuk halaman user
+
+fitur overview
+untuk yang 30-day visitor trend forecast ini ganti kyk berisi dashboard grafik-grafik apa saja setelah diolah datasetnya
+setelah itu, kalau bisa yang upcoming week preview itu berisikan per minggu didalam bulan dan tahun itu 
+
+fitur prediksi
+untuk yang fitur prediksi nanti gambaran kyk gini tapi tidak ada key factorsnya
+
+fitur monthly view
+diganti aja menjadi fitur selection, nah nanti ini tolong dianalisis setelah datanya diolah, nantinya gambarannya gitu 
+semacam mencari 10 pengunjung yang dateng secara bersamaan atau apalah gitu
+
+fitur trend analysis 
+itu kakanya saja yang improve kyk gimana
+
+fitur report
+itu kakanya saja yang improve kyk gimana
+
+ini untuk halaman admin
+untuk halaman admin ini, didalam aset admin yang gdrive adalah itu cuman gambaran pas coding web nanti terserah kakanya
+mau diimprove atau gimana 
+

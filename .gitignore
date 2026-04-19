@@ -1,0 +1,37 @@
+# Laravel
+website/.env
+website/storage/*.key
+website/storage/framework/cache/data/*
+website/storage/framework/sessions/*
+website/storage/framework/views/*.php
+website/storage/logs/*.log
+website/vendor/
+website/node_modules/
+website/public/hot
+website/public/storage
+website/public/build
+website/.phpunit.result.cache
+website/pnpm-lock.yaml
+website/package-lock.json
+
+# Python / ML
+ml-sarima/venv/
+ml-sarima/.venv/
+ml-sarima/__pycache__/
+ml-sarima/*.pyc
+ml-sarima/.pytest_cache/
+ml-sarima/.env
+ml-sarima/models/*.pkl
+ml-sarima/output/*.png
+ml-sarima/output/*.csv
+ml-sarima/output/*.json
+
+# Application Specific
+*.sqlite
+*.sqlite-journal
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
