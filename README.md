@@ -67,6 +67,3 @@ Website bertindak sebagai "wajah" (Dashboard User/Admin).
 **Prediksi SARIMA**: Menampilkan perpaduan visual grafik data historis bersama zona interval kepercayaan 95% untuk bulan ke depannya. Serta mendetailkan error metrik (RMSE, MAE, MAPE).
 **Analisis Trend**: Pemecahan visual berbasis pie-chart (Traffic Level) dan garis mingguan agar manajemen tau mana hari padat wisata.
 **Laporan Data**: Ringkasan lengkap tabel komparasi pengunjung KTM dan Glamping per bulannya.
-
----
-*Created as Joki Project Output - 2024/2026*
