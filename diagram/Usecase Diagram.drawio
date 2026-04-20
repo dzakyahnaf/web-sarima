@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="ewAYTjsCgWVE9tk-rFWp">
+    <mxGraphModel dx="1437" dy="918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="650" width="290" x="350" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-14" edge="1" parent="1" source="cB41Cr8OjHjZDDyr7uAE-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cB41Cr8OjHjZDDyr7uAE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Staff / Pengunjung" vertex="1">
+          <mxGeometry height="90" width="45" x="240" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Pengelola / Admin" vertex="1">
+          <mxGeometry height="90" width="45" x="240" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Login Akun" vertex="1">
+          <mxGeometry height="60" width="150" x="420" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Retrain Model ML" vertex="1">
+          <mxGeometry height="60" width="150" x="425" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Input Data Manual" vertex="1">
+          <mxGeometry height="60" width="150" x="420" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-9" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Upload File Dataset (CSV)" vertex="1">
+          <mxGeometry height="60" width="150" x="420" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-10" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Cetak Laporan Kunjungan" vertex="1">
+          <mxGeometry height="60" width="150" x="420" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-11" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Lihat Prediksi SARIMA" vertex="1">
+          <mxGeometry height="60" width="150" x="420" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-12" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Lihat Dashboard Trend" vertex="1">
+          <mxGeometry height="60" width="150" x="420" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-15" edge="1" parent="1" source="cB41Cr8OjHjZDDyr7uAE-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="cB41Cr8OjHjZDDyr7uAE-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="213" as="sourcePoint" />
+            <mxPoint x="485" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-16" edge="1" parent="1" source="cB41Cr8OjHjZDDyr7uAE-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="cB41Cr8OjHjZDDyr7uAE-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="310" as="sourcePoint" />
+            <mxPoint x="425" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-17" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cB41Cr8OjHjZDDyr7uAE-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="515" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-18" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cB41Cr8OjHjZDDyr7uAE-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="500" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-19" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cB41Cr8OjHjZDDyr7uAE-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="420" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-20" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cB41Cr8OjHjZDDyr7uAE-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="440" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cB41Cr8OjHjZDDyr7uAE-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;System Bunihayu SARIMA&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="160" x="415" y="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
